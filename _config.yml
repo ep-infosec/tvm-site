@@ -1,0 +1,47 @@
+# This is the default format.
+# For more see: https://jekyllrb.com/docs/permalinks/
+permalink: /:categories/:year/:month/:day/:title
+
+exclude: [".rvmrc",
+          ".rbenv-version",
+          "Rakefile",
+          "changelog.md",
+          "tvm",
+          "Jenkinsfile",
+          "Gemfile",
+          "Gemfile.lock",
+          "scripts",
+          ".gitmodules",
+          "CNAME",
+          "README.md",
+          "website.tgz",
+          "docs.tgz",
+          "docs",
+          "serve_local.sh"]
+
+highlighter: rouge
+markdown: kramdown
+
+
+# Themes are encouraged to use these universal variables
+# so be sure to set them if your theme uses them.
+#
+title :  "TVM"
+tagline:
+author :
+  name :
+
+#
+production_url : https://tvm.apache.org
+
+
+# All Jekyll-Bootstrap specific configurations are namespaced into this hash
+#
+JB :
+  version : 0.3.0
+
+  BASE_PATH : https://tvm.apache.org
+  BLOG_PATH : https://tvm.apache.org
+
+  sharing :
+    provider : false
